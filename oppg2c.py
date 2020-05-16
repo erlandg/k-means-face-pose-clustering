@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import random
 
-A = np.genfromtxt('data/frey-faces.csv')
+A = np.genfromtxt('frey-faces.csv')
 testdata = A.copy()
 N = 3
 
